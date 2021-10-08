@@ -2,13 +2,14 @@ import React, { Component } from 'react';
 
 import './main.css';
 import './clay.css';
+import logo from '../img/logo_cmu.png';
 class CustomNavbar extends Component {
     render() {
         return (
             <nav class="navbar navbar-default sticky-top fixed-top navbar navbar-light padLR-50" id="banner">
    <div class="container-fluid bg-td">
       <div class="navbar-header">
-         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#defaultNavbar1" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand navbar-brand1" href="/"><img src="https://data.gov.vn/o/govTheme/images/gov/logo_cong.svg" height="64" alt=""/></a> 
+         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#defaultNavbar1" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand navbar-brand1" href="/"><img src={logo} height="80" alt=""/></a> 
       </div>
       <div class="collapse navbar-collapse" id="defaultNavbar1">
 
