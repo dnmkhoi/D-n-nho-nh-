@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './Login.css';
+import Navbar from './CustomNavbar';
+import Footer from './CustomFooter';
 const FormHeader = props => (
     <h2 id="headerTitle">{props.title}</h2>
 );
@@ -12,13 +14,13 @@ const Form = props => (
  );
  
  const FormButton = props => (
-   <div id="button" class="row">
+   <div id="button" class="row login">
      <button>{props.title}</button>
    </div>
  );
  
  const FormInput = props => (
-   <div class="row">
+   <div class="row login">
      <label>{props.description}</label>
      <input type={props.type} placeholder={props.placeholder}/>
    </div>  
@@ -27,9 +29,13 @@ const Form = props => (
 class Login extends Component {
     render() {
         return (
-            <div id="loginform">
-            <FormHeader title="Đăng nhập" />
-            <Form />
+          <div>
+            <Navbar />
+              <div id="loginform">
+                <FormHeader title="Đăng nhập" />
+                <Form />
+              </div>
+            <Footer />
           </div>
         );
     }

@@ -8512,7 +8512,7 @@ output {
 .form-control {
 	display: block;
 	width: 100%;
-	height: 34px;
+	height: 40px;
 	padding: 6px 12px;
 	font-size: 14px;
 	line-height: 1.42857;
@@ -10847,6 +10847,7 @@ tbody.collapse.in {
 }
 
 .navbar-default {
+	position: sticky;
 	background-color: #2067dd;
 	border-color: #e7e7e7
 }

@@ -29,7 +29,7 @@ html{
   font-size: 2rem;
 }
 
-.row{
+.login{
   display: flex;
   flex-direction: column;
   align-items: center;

@@ -21,7 +21,7 @@ a:hover {
 }
 
 .banner {
-    background-image: url('../img/bg_slide.png');
+    background-image: url('https://data.gov.vn/o/govTheme/css/bg_slide.png');
 	background-color: #2b5988;
 	text-align: center;
 	color: #fff;
@@ -1059,6 +1059,7 @@ marquee {
 }
 
 .bg-slide {
+	background: url("https://data.gov.vn/o/govTheme/css/bg_slide.png") !important;
 	background-repeat: no-repeat !important;
 	background-attachment: scroll !important;
 	background-position: right bottom !important;
@@ -1070,7 +1071,7 @@ marquee {
 }
 
 .mt-150 {
-	margin-top: 150px
+	margin-top: 80px
 }
 
 .bo-none {
@@ -4405,7 +4406,7 @@ body.portlet {
 
 .portlet-content,
 .portlet-minimized .portlet-content-container {
-	padding: 12px 10px 10px
+	padding: 0px 0px 10px
 }
 
 .portlet-minimized .portlet-content {
