@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
-import './Home.css';
 import Navbar from './CustomNavbar';
 import Footer from './CustomFooter';
-import './clay.css';
-import './main.css';
-import { Grid, Row, Col } from 'react-bootstrap';
 
 class Home extends Component {
     render() {
@@ -33,7 +29,7 @@ class Home extends Component {
                                                             <div class="input-group">
                                                                 <input type="text" class="form-control bo-l bo-none" name="q" placeholder="Bạn cần tìm gì?" id="inputlg"/>
                                                                 <div class="input-group-btn">
-                                                                <button class="btn btn-default bo-r bo-none" type="submit" style={{width:'100%'}}>
+                                                                <button class="btn btn-default bo-r bo-none" type="submit" style={{width:'37px',marginLeft:'-15px',height:'40px',borderRadius:'25px'}}>
                                                                 <i class="fas fa-search text-xam"></i>
                                                                 </button>
                                                                 </div>

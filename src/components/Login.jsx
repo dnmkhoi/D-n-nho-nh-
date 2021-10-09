@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './Login.css';
 import Navbar from './CustomNavbar';
 import Footer from './CustomFooter';
 const FormHeader = props => (
@@ -28,6 +27,7 @@ const Form = props => (
  
 class Login extends Component {
     render() {
+      require('./Login.css');
         return (
           <div>
             <Navbar />

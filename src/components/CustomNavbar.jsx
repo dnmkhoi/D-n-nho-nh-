@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 
-import './main.css';
-import './clay.css';
 import logo from '../img/logo_cmu.png';
 class CustomNavbar extends Component {
     render() {
+      require('./main.css');
+      require('./clay.css');
         return (
             <nav class="navbar navbar-default sticky-top fixed-top navbar navbar-light padLR-50" id="banner">
    <div class="container-fluid bg-td">
