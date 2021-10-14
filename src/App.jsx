@@ -1,20 +1,32 @@
 
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Redirect, Switch} from 'react-router-dom';
 import Home from './components/Home';
 import Login from './components/Login';
-import Register from './components/Register';
 import Dashboard from './components/backend/Dashboard';
+import useToken from './useToken';
+//import { PrivateRoute } from './PrivateRoute';
 
 function App() {
+
+  const { token, setToken } = useToken();
+
   return (
     <Router>
-      <div>
-        <Route exact path="/" component={Home} />
-        <Route path="/login" component={Login}/>
-        <Route path="/register" component={Register}/>
-        <Route path="/dashboard" component={Dashboard}/>
-      </div>
+      <Switch>
+        {/* <PrivateRoute exact path="/dashboard" component={Dashboard} /> */}
+        <Route exact path="/dashboard" render={props => (
+        token
+            ? <Dashboard/>
+            : <Login setToken={setToken} />
+        )}/>
+        <Route path="/login" render={props => (
+        token
+            ? <Redirect to='/dashboard'/>
+            : <Login setToken={setToken} />
+        )}/>
+        <Route exact path="/" component={Home} />        
+      </Switch>
     </Router>
   );
 }

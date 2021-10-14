@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import Navbar from './CustomNavbar';
 import Footer from './CustomFooter';
+import DsTthc from './DsTthc';
+import bg from '../img/bg.svg';
 
-class Home extends Component {
-    render() {
+export default function Home(){
         return (
             <div>
                 <Navbar />
@@ -11,7 +12,7 @@ class Home extends Component {
                 <section id="body-of-portlet" class="">
                     <div class="columns-1" id="main-content" role="main">
                         <div class="portlet-layout row">
-                            <div class="col-md-12 portlet-column portlet-column-only" id="column-1">
+                            <div class="col-md-12 portlet-column portlet-column-only" id="column-1" style={{padding: "0px"}}>
                             <div class="portlet-dropzone portlet-column-content portlet-column-content-only" id="layout-column_column-1">
                                 <div class="portlet-boundary portlet-boundary_vn_gov_data_portlet_DatagovPortlet_  portlet-static portlet-static-end decorate  " id="p_p_id_vn_gov_data_portlet_DatagovPortlet_INSTANCE_bc88LZV1MHke_">
                                     <span id="p_vn_gov_data_portlet_DatagovPortlet_INSTANCE_bc88LZV1MHke"></span>
@@ -24,8 +25,8 @@ class Home extends Component {
                                                 <script src="http://123.30.158.153:2000/socket.io/socket.io.js"></script> 
                                                 <section class="bg-slide container-fluid">
                                                     <div class="row">
-                                                    <div class="col-md-4 col-md-offset-1">
-                                                        <form class="mt-150" action="http://open.data.gov.vn/dataset">
+                                                    <div class="col-md-4 col-md-offset-1 mt-30slide">
+                                                        <form class="mt-150" action="#">
                                                             <div class="input-group">
                                                                 <input type="text" class="form-control bo-l bo-none" name="q" placeholder="Bạn cần tìm gì?" id="inputlg"/>
                                                                 <div class="input-group-btn">
@@ -36,13 +37,13 @@ class Home extends Component {
                                                             </div>
                                                         </form>
                                                         <h1 class="text-to">camau.gov.vn</h1>
-                                                        <p class="text-trang">Điểm đầu mối kết nối, chia sẻ dữ liệu giữa các bộ, ngành, địa phương</p>
-                                                        <a href="#" class="btn btn-success text-uppercase">Dữ liệu mở</a>
+                                                        <p class="text-trang">Điểm đầu mối kết nối, chia sẻ dữ liệu giữa các bộ, ngành, địa phương</p>                                                        
                                                     </div>
+                                                    <div class="col-md-5 text-center col-md-offset-2"><img class="img-responsive" src={bg} style={{marginTop: "-30px", height: "580px"}}/></div>
                                                     </div>
                                                 </section>                                               
                                             
-                                                <section class="bg-trang">
+                                                <section>
                                                     <div class="container">
                                                     <h3 class="tle mb-0">Hiện trạng kết nối chia sẻ dữ liệu<br/><span class="line"></span></h3>
                                                     <p class="text-center text-muted mb-30"><em class="">Danh mục CSDLQG được quy định tại Quyết định số 714/QĐ-TTg của Thủ tướng Chính phủ</em></p>
@@ -199,6 +200,9 @@ class Home extends Component {
                                                     </div>
                                                     </div>
                                                 </section>
+                                                <section>
+                                                    <DsTthc/>
+                                                </section>
                                             </div>
                                         </div>
                                         </div>
@@ -213,7 +217,4 @@ class Home extends Component {
                 <Footer />
             </div>
         );
-    }
 }
-
-export default Home;

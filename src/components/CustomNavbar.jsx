@@ -1,25 +1,26 @@
 import React, { Component } from 'react';
-
 import logo from '../img/logo_cmu.png';
-class CustomNavbar extends Component {
-    render() {
+import useToken from '../useToken';
+
+export default function CustomNavbar() {
+   const {token} = useToken();
       require('./main.css');
       require('./clay.css');
         return (
             <nav class="navbar navbar-default sticky-top fixed-top navbar navbar-light padLR-50" id="banner">
    <div class="container-fluid bg-td">
       <div class="navbar-header">
-         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#defaultNavbar1" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand navbar-brand1" href="/"><img src={logo} height="80" alt=""/></a> 
+         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#defaultNavbar1" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand navbar-brand1" href="/"><img src={logo} height="75" alt="" style={{transform: "translate(0px, -22px)"}}/></a> 
       </div>
       <div class="collapse navbar-collapse" id="defaultNavbar1">
 
          <p class="text-right mt-10 mb-0 hidden-xs">
-            <a class="text-vang" href="/login">Đăng nhập</a>
-            <span class="cach">I</span>
-            <a class="hidden-xs text-vang" href="/register">Đăng ký</a>
+            {!token ? <a class="text-vang" href="/login">Đăng nhập</a> : null}            
+            {/* <span class="cach">I</span>
+            <a class="hidden-xs text-vang" href="/register">Đăng ký</a> */}
          </p>
          <ul class="nav navbar-nav navbar-right">
-            <li class="nav-item dropdown dmenu">
+            {/* <li class="nav-item dropdown dmenu">
                <a href="#" class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                Dữ liệu CQNN
                </a>				
@@ -88,15 +89,12 @@ class CustomNavbar extends Component {
                <a href="#" class="">
                Ứng dụng
                </a>
-            </li>
-            <li class="visible-xs-block"><a class="bt-dn" href="/login">Đăng nhập</a></li>
-            <li class="visible-xs-block"><a class="bt-dn" href="/register">Đăng ký</a></li>
+            </li> */}
+            {/* <li class="visible-xs-block"><a class="bt-dn" href="/login">Đăng nhập</a></li>
+            <li class="visible-xs-block"><a class="bt-dn" href="/register">Đăng ký</a></li> */}
          </ul>
       </div>
    </div>
 </nav>
         );
-    }
 }
-
-export default CustomNavbar;

@@ -128,9 +128,7 @@ a:hover {
 }
 
 @media screen and (max-width:1024px) {
-	.navbar-brand1 img {
-		height: 45px
-	}
+	
 	.box-slide {
 		left: 20px !important;
 		right: 20px !important
@@ -179,9 +177,6 @@ a:hover {
 	.slogan h3,
 	.slogan h4 {
 		font-size: 90%
-	}
-	.navbar-brand>img {
-		height: 45px
 	}
 	.media-object {
 		width: 120px

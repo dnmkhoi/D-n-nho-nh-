@@ -1,0 +1,61 @@
+[
+    {
+      "idKetnoi": 1,
+      "tenKetnoi": "LGSP Cấp MSNS",
+      "url": "http://lgsp.cqdtcamau.vn:8280",
+      "api": [
+        {
+          "id": 1,
+          "method": "GET",
+          "name": "getDanhSachHoSoTheoNgay",
+          "url": "/ngsp-capmsns/1.0/getDanhSachHoSoTheoNgay",
+          "header": {
+            "Content-Type": "application/soap+xml",
+            "Authorization": "Bearer {token}"
+          },
+          "param": {
+            "tuNgay": "01102020",
+            "denNgay": "13112020"
+          },
+          "respone": "xml"
+        }
+      ]
+    },
+    {
+        "idKetnoi": 2,
+        "tenKetnoi": "LGSP kết nối phần mềm Hộ tịch",
+        "url": "http://lgsp.cqdtcamau.vn:8280",
+        "api": [          
+          {
+              "id": 1,
+              "method": "POST",
+              "name": "traHoSo",
+              "url": "/ngsp-hotich/1.0/traHoSo",
+              "header": {
+                  "Content-Type": "application/json",
+                  "Authorization": "Bearer {token}"
+              },
+              "body": {
+                  "module": "TGH",
+                  "maHoSo": "32005-201019-0001"
+              },
+              "respone": "json"
+          },
+          {
+              "id": 2,
+              "method": "POST",
+              "name": "traTrangThaiHoSo",
+              "url": "/ngsp-hotich/1.0/traTrangThaiHoSo",
+              "header": {
+                  "Content-Type": "application/json",
+                  "Authorization": "Bearer {token}"
+              },
+              "body": {
+                  "maDonVi": "32005",
+                  "maHoSo": "32005-201019-0001"
+               },
+              "respone": "json"
+          }
+        ]
+      }
+  ]
