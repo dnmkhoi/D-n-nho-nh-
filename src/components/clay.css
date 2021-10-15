@@ -10449,7 +10449,7 @@ tbody.collapse.in {
 
 .navbar {
 	position: relative;
-	min-height: 50px;
+	min-height: 85px;
 	margin-bottom: 20px;
 	padding: .5rem 1rem
 }
