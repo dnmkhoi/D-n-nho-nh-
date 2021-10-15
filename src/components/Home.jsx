@@ -36,8 +36,8 @@ export default function Home(){
                                                                 </div>
                                                             </div>
                                                         </form>
-                                                        <h1 class="text-to">camau.gov.vn</h1>
-                                                        <p class="text-trang">Điểm đầu mối kết nối, chia sẻ dữ liệu giữa các bộ, ngành, địa phương</p>                                                        
+                                                        <h2 style={{fontWeight: '200',color:'#fff',fontSize:'40px',textShadow:'0 1px 2px rgb(0 0 0 / 80%)'}}>Cập nhật cơ sở dữ liệu về TTHC</h2>
+                                                        <p class="text-trang">Thực hiện việc kết nối, thu nhận dữ liệu về kết quả giải quyết thủ tục hành chính của các Phần mềm chuyên ngành, Phần mềm văn bản chỉ đạo điều hành</p>                                                        
                                                     </div>
                                                     <div class="col-md-5 text-center col-md-offset-2"><img class="img-responsive" src={bg} style={{marginTop: "-30px", height: "580px"}}/></div>
                                                     </div>
