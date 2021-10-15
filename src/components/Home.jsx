@@ -52,12 +52,11 @@ export default function Home(){
                                                             <thead>
                                                                 <tr>
                                                                 <th>STT</th>
-                                                                <th><a class="text-trang" href="#" data-toggle="tooltip" title="" data-original-title="...">Cơ sở dữ liệu quốc gia</a></th>
+                                                                <th><a class="text-trang" href="#" data-toggle="tooltip" title="" data-original-title="...">Hệ thống chia sẻ, tích hợp</a></th>
                                                                 <th><a class="text-trang" href="#" data-toggle="tooltip" title="" data-original-title="Hệ thống quản lý tập trung, dự án xây dựng theo yêu cầu ">Hệ thống</a></th>
-                                                                <th><a class="text-trang" href="#" data-toggle="tooltip" title="" data-original-title="Dữ liệu xe thu thập và quản lý trong CSDL">Dữ liệu</a></th>
-                                                                <th><a class="text-trang" href="#" data-toggle="tooltip" title="" data-original-title="Nghị định quy định cụ thể về CSDL này">Pháp lý</a></th>
-                                                                <th><a class="text-trang" href="#" data-toggle="tooltip" title="" data-original-title="Quy chuẩn cấu trúc dữ liệu trao đổi theo quy định">Chuẩn <br/> trao đổi</a></th>
-                                                                <th><a class="text-trang" href="#" data-toggle="tooltip" title="" data-original-title="Cung cấp dịch vụ theo chuẩn và qua NGSP">Kết nối <br/>NGSP</a></th>
+                                                                <th><a class="text-trang" href="#" data-toggle="tooltip" title="" data-original-title="Dữ liệu xe thu thập và quản lý trong CSDL">Tài liệu</a></th>
+                                                                <th><a class="text-trang" href="#" data-toggle="tooltip" title="" data-original-title="Quy chuẩn cấu trúc dữ liệu trao đổi theo quy định">Kết nối <br/>LGSP</a></th>
+                                                                <th><a class="text-trang" href="#" data-toggle="tooltip" title="" data-original-title="Cung cấp dịch vụ theo chuẩn và qua NGSP">Trạng thái <br/>tích hợp trên cổng DVC</a></th>
                                                                 </tr>
                                                             </thead>
                                                             <tbody>
@@ -73,13 +72,10 @@ export default function Home(){
                                                                     <img   data-toggle="tooltip" title="" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-05.png" alt="" data-original-title="Đang phát phiếu thu thập toàn quốc, một số tỉnh đã xây dựng"/>
                                                                 </td>
                                                                 <td class="text-center">
-                                                                    <img   data-toggle="tooltip" title="" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-03.png" alt="" data-original-title="Nghị định 137/2015/NĐ-CP"/>
+                                                                    <img   data-toggle="tooltip" title="" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-05.png" alt="" data-original-title="Nghị định 137/2015/NĐ-CP"/>
                                                                 </td>
                                                                 <td class="text-center">
-                                                                    <img   data-toggle="tooltip" title="" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-03.png" alt="" data-original-title="QCVN 109L2017/BTTTT"/>
-                                                                </td>
-                                                                <td class="text-center">
-                                                                    <img   data-toggle="tooltip" title="" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-04.png" alt="" data-original-title=""/>
+                                                                    <img   data-toggle="tooltip" title="" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-05.png" alt="" data-original-title="QCVN 109L2017/BTTTT"/>
                                                                 </td>
                                                                 </tr>
                                                                 <tr>
@@ -99,14 +95,11 @@ export default function Home(){
                                                                 <td class="text-center">
                                                                     <img   data-toggle="tooltip" title="" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-04.png" alt="" data-original-title="Chưa chuẩn hóa và ban hành"/>
                                                                 </td>
-                                                                <td class="text-center">
-                                                                    <img   data-toggle="tooltip" title="" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-05.png" alt="" data-original-title="Đã kết nối và cung cấp dữ liệu cho một số cơ quan"/>
-                                                                </td>
                                                                 </tr>
                                                                 <tr>
                                                                 <td class="text-center">3</td>
                                                                 <td>
-                                                                    CSDL về đất đai quốc gia
+                                                                    Tích hợp lĩnh vực Bảo hiểm xã hội
                                                                 </td>
                                                                 <td class="text-center">
                                                                     <img   data-toggle="tooltip" title="" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-05.png" alt="" data-original-title="Đang triển khai dự án VILG"/>
@@ -115,28 +108,22 @@ export default function Home(){
                                                                     <img   data-toggle="tooltip" title="" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-05.png" alt="" data-original-title="Một số địa phương đã có nguồn dữ liệu"/>
                                                                 </td>
                                                                 <td class="text-center">
-                                                                    <img   data-toggle="tooltip" title="" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-04.png" alt="" data-original-title=""/>
+                                                                    <img   data-toggle="tooltip" title="" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-05.png" alt="" data-original-title=""/>
                                                                 </td>
                                                                 <td class="text-center">
-                                                                    <img   data-toggle="tooltip" title="" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-05.png" alt="" data-original-title="Thông tư 75/2015/TT-BTNMT nhưng chưa phải cho CSDLQG"/>
-                                                                </td>
-                                                                <td class="text-center">
-                                                                    <img   data-toggle="tooltip" title="" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-04.png" alt="" data-original-title=""/>
+                                                                    <img   data-toggle="tooltip" title="" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-04.png" alt="" data-original-title="Thông tư 75/2015/TT-BTNMT nhưng chưa phải cho CSDLQG"/>
                                                                 </td>
                                                                 </tr>
                                                                 <tr>
                                                                 <td class="text-center">4</td>
                                                                 <td>
-                                                                    CSDLQG về tài chính
+                                                                    Hệ thống thông tin quản lý hợp đồng công chứng
                                                                 </td>
                                                                 <td class="text-center">
                                                                     <img   data-toggle="tooltip" title="" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-04.png" alt="" data-original-title="Mới lập đề án"/>
                                                                 </td>
                                                                 <td class="text-center">
-                                                                    <img   data-toggle="tooltip" title="" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-05.png" alt="" data-original-title="Các CSDL chuyên ngành đã vận hành là nguồn thu thập"/>
-                                                                </td>
-                                                                <td class="text-center">
-                                                                    <img   data-toggle="tooltip" title="" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-04.png" alt="" data-original-title=""/>
+                                                                    <img   data-toggle="tooltip" title="" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-04.png" alt="" data-original-title="Các CSDL chuyên ngành đã vận hành là nguồn thu thập"/>
                                                                 </td>
                                                                 <td class="text-center">
                                                                     <img   data-toggle="tooltip" title="" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-04.png" alt="" data-original-title=""/>
@@ -148,45 +135,93 @@ export default function Home(){
                                                                 <tr>
                                                                 <td class="text-center">5</td>
                                                                 <td>
-                                                                    CSDLQG về Bảo hiểm
+                                                                    Kết nối CSDL Quốc Gia Về TTHC (*)
                                                                 </td>
                                                                 <td class="text-center">
-                                                                    <img   data-toggle="tooltip" title="" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-05.png" alt="" data-original-title=""/>
+                                                                    <img   data-toggle="tooltip" title="" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-03.png" alt="" data-original-title=""/>
                                                                 </td>
                                                                 <td class="text-center">
-                                                                    <img   data-toggle="tooltip" title="" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-05.png" alt="" data-original-title="Các CSDL chuyên ngành đã được xây dựng"/>
+                                                                    <img   data-toggle="tooltip" title="" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-03.png" alt="" data-original-title="Các CSDL chuyên ngành đã được xây dựng"/>
                                                                 </td>
                                                                 <td class="text-center">
-                                                                    <img   data-toggle="tooltip" title="" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-05.png" alt="" data-original-title=""/>
+                                                                    <img   data-toggle="tooltip" title="" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-03.png" alt="" data-original-title=""/>
                                                                 </td>
                                                                 <td class="text-center">
-                                                                    <img   data-toggle="tooltip" title="" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-05.png" alt="" data-original-title=""/>
+                                                                    <img   data-toggle="tooltip" title="" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-03.png" alt="" data-original-title=""/>
+                                                                </td>
+                                                                </tr>
+                                                                <tr>
+                                                                <td class="text-center">6</td>
+                                                                <td>
+                                                                    Kết nối CSDL Quốc gia về Thanh toán trực tuyến (*)
+                                                                </td>
+                                                                <td class="text-center">
+                                                                    <img   data-toggle="tooltip" title="" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-03.png" alt="" data-original-title=""/>
+                                                                </td>
+                                                                <td class="text-center">
+                                                                    <img   data-toggle="tooltip" title="" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-03.png" alt="" data-original-title=""/>
+                                                                </td>
+                                                                <td class="text-center">
+                                                                    <img   data-toggle="tooltip" title="" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-03.png" alt="" data-original-title=""/>
                                                                 </td>
                                                                 <td class="text-center">
                                                                     <img   data-toggle="tooltip" title="" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-05.png" alt="" data-original-title=""/>
                                                                 </td>
                                                                 </tr>
                                                                 <tr>
-                                                                <td class="text-center">6</td>
+                                                                <td class="text-center">7</td>
                                                                 <td>
-                                                                    CSDLQG về thống kê,tổng hợp dân số
+                                                                    Kết nối CSDL Quốc gia về Thanh toán thuế đất (*)
                                                                 </td>
                                                                 <td class="text-center">
-                                                                    <img   data-toggle="tooltip" title="" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-04.png" alt="" data-original-title=""/>
+                                                                    <img   data-toggle="tooltip" title="" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-03.png" alt="" data-original-title=""/>
                                                                 </td>
                                                                 <td class="text-center">
-                                                                    <img   data-toggle="tooltip" title="" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-04.png" alt="" data-original-title=""/>
+                                                                    <img   data-toggle="tooltip" title="" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-03.png" alt="" data-original-title=""/>
                                                                 </td>
                                                                 <td class="text-center">
-                                                                    <img   data-toggle="tooltip" title="" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-04.png" alt="" data-original-title=""/>
+                                                                    <img   data-toggle="tooltip" title="" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-03.png" alt="" data-original-title=""/>
                                                                 </td>
                                                                 <td class="text-center">
-                                                                    <img   data-toggle="tooltip" title="" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-04.png" alt="" data-original-title=""/>
+                                                                    <img   data-toggle="tooltip" title="" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-03.png" alt="" data-original-title=""/>
+                                                                </td>
+                                                                </tr>        
+                                                                <tr>
+                                                                <td class="text-center">8</td>
+                                                                <td>
+                                                                    Tích hợp lĩnh vực Hộ tịch tư pháp
                                                                 </td>
                                                                 <td class="text-center">
-                                                                    <img   data-toggle="tooltip" title="" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-04.png" alt="" data-original-title=""/>
+                                                                    <img   data-toggle="tooltip" title="" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-03.png" alt="" data-original-title=""/>
                                                                 </td>
-                                                                </tr>
+                                                                <td class="text-center">
+                                                                    <img   data-toggle="tooltip" title="" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-03.png" alt="" data-original-title=""/>
+                                                                </td>
+                                                                <td class="text-center">
+                                                                    <img   data-toggle="tooltip" title="" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-03.png" alt="" data-original-title=""/>
+                                                                </td>
+                                                                <td class="text-center">
+                                                                    <img   data-toggle="tooltip" title="" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-03.png" alt="" data-original-title=""/>
+                                                                </td>
+                                                                </tr>   
+                                                                <tr>
+                                                                <td class="text-center">9</td>
+                                                                <td>
+                                                                    Tích hợp lĩnh vực Lý lịch tư pháp
+                                                                </td>
+                                                                <td class="text-center">
+                                                                    <img   data-toggle="tooltip" title="" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-03.png" alt="" data-original-title=""/>
+                                                                </td>
+                                                                <td class="text-center">
+                                                                    <img   data-toggle="tooltip" title="" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-03.png" alt="" data-original-title=""/>
+                                                                </td>
+                                                                <td class="text-center">
+                                                                    <img   data-toggle="tooltip" title="" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-03.png" alt="" data-original-title=""/>
+                                                                </td>
+                                                                <td class="text-center">
+                                                                    <img   data-toggle="tooltip" title="" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-03.png" alt="" data-original-title=""/>
+                                                                </td>
+                                                                </tr>                                                                                                                                                                                         
                                                             </tbody>
                                                         </table>
                                                         <div>
@@ -196,6 +231,9 @@ export default function Home(){
                                                             <div class="col-md-4 mb-20"><img class="mr-10" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-03.png" alt="" height="30"/><em class="text-muted lin2">Đã thực hiện</em></div>
                                                             <div class="col-md-4 mb-20"><img class="mr-10" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-05.png" alt="" height="30"/><em class="text-muted lin2">Đang thực hiện</em></div>
                                                             <div class="col-md-4 mb-20"><img class="mr-10" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-04.png" alt="" height="30"/><em class="text-muted lin2">Chưa thực hiện</em></div>
+                                                        </div>
+                                                        <div>
+                                                            <a style={{fontStyle:"oblique",fontSize:"small"}}>* Các kết nối với Cổng Quốc Gia không thông qua trục LGSP</a>
                                                         </div>
                                                     </div>
                                                     </div>
