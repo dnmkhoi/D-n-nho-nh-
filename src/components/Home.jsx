@@ -220,7 +220,25 @@ export default function Home(){
                                                                 <td class="text-center">
                                                                     <img   data-toggle="tooltip" title="" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-03.png" alt="" data-original-title=""/>
                                                                 </td>
-                                                                </tr>                                                                                                                                                                                         
+                                                                </tr> 
+                                                                <tr>
+                                                                <td class="text-center">10</td>
+                                                                <td>
+                                                                    Tích hợp hệ thống danh mục dùng chung qua trục LGSP
+                                                                </td>
+                                                                <td class="text-center">
+                                                                    <img   data-toggle="tooltip" title="" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-03.png" alt="" data-original-title=""/>
+                                                                </td>
+                                                                <td class="text-center">
+                                                                    <img   data-toggle="tooltip" title="" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-03.png" alt="" data-original-title=""/>
+                                                                </td>
+                                                                <td class="text-center">
+                                                                    <img   data-toggle="tooltip" title="" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-03.png" alt="" data-original-title=""/>
+                                                                </td>
+                                                                <td class="text-center">
+                                                                    <img   data-toggle="tooltip" title="" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-03.png" alt="" data-original-title=""/>
+                                                                </td>
+                                                                </tr>                                                                                                                                                                                                                                                        
                                                             </tbody>
                                                         </table>
                                                         <div>
