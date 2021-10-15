@@ -46,7 +46,6 @@ export default function Home(){
                                                 <section>
                                                     <div class="container">
                                                     <h3 class="tle mb-0">Hiện trạng kết nối chia sẻ dữ liệu<br/><span class="line"></span></h3>
-                                                    <p class="text-center text-muted mb-30"><em class="">Danh mục CSDLQG được quy định tại Quyết định số 714/QĐ-TTg của Thủ tướng Chính phủ</em></p>
                                                     <div class="table-responsive">
                                                         <table class="table table-bordered table-striped table-hover">
                                                             <thead>
@@ -227,13 +226,13 @@ export default function Home(){
                                                         <div>
                                                             <a style={{fontWeight: 'bold'}}>Chú thích: </a>
                                                         </div>
-                                                        <div class="row mb-20" style={{maxWidth: '100'+'%',textAlign:'center'}}>
-                                                            <div class="col-md-4 mb-20"><img class="mr-10" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-03.png" alt="" height="30"/><em class="text-muted lin2">Đã thực hiện</em></div>
-                                                            <div class="col-md-4 mb-20"><img class="mr-10" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-05.png" alt="" height="30"/><em class="text-muted lin2">Đang thực hiện</em></div>
-                                                            <div class="col-md-4 mb-20"><img class="mr-10" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-04.png" alt="" height="30"/><em class="text-muted lin2">Chưa thực hiện</em></div>
+                                                        <div class="row" style={{maxWidth: '100'+'%',textAlign:'center'}}>
+                                                            <div class="col-md-4 mb-10"><img class="mr-10" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-03.png" alt="" height="30"/><em class="text-muted lin2">Đã thực hiện</em></div>
+                                                            <div class="col-md-4 mb-10"><img class="mr-10" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-05.png" alt="" height="30"/><em class="text-muted lin2">Đang thực hiện</em></div>
+                                                            <div class="col-md-4 mb-10"><img class="mr-10" src="https://data.gov.vn/o/govTheme/images/gov/logo_data-04.png" alt="" height="30"/><em class="text-muted lin2">Chưa thực hiện</em></div>
                                                         </div>
                                                         <div>
-                                                            <a style={{fontStyle:"oblique",fontSize:"small"}}>* Các kết nối với Cổng Quốc Gia không thông qua trục LGSP</a>
+                                                            <a style={{fontStyle:"oblique",fontSize:"small"}}>* Các kết nối CSDLQG được quy định tại Quyết định số 714/QĐ-TTg của Thủ tướng Chính phủ không thông qua trục LGSP</a>
                                                         </div>
                                                     </div>
                                                     </div>
