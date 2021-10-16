@@ -3,6 +3,7 @@ import Navbar from './CustomNavbar';
 import Footer from './CustomFooter';
 import DsTthc from './DsTthc';
 import bg from '../img/bg.svg';
+import TraCuuHoSo from './TracuuHoso';
 
 export default function Home(){
         return (
@@ -257,6 +258,9 @@ export default function Home(){
                                                 </section>
                                                 <section>
                                                     <DsTthc/>
+                                                </section>
+                                                <section>
+                                                    <TraCuuHoSo/>
                                                 </section>
                                             </div>
                                         </div>
