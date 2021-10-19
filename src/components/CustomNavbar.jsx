@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from '../img/logo_cmu.png';
+import logo from '../img/test.jpg';
 import useToken from '../useToken';
 
 export default function CustomNavbar() {
