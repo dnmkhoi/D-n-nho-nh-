@@ -25,7 +25,6 @@ export default function TracuuHoso(){
                     }
                   )              
         }
-        return ketQua;
       }
         return (
         <section className="content">

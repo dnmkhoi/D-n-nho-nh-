@@ -1,0 +1,53 @@
+{
+    "danhMucCapDonVi": [
+        {
+            "id": 0,
+            "name": "Cấp Bộ"
+        },
+        {
+            "id": 1,
+            "name": "Cấp Tỉnh"
+        },
+        {
+            "id": 3,
+            "name": "Cấp Sở"
+        },
+        {
+            "id": 2,
+            "name": "Cấp Huyện"
+        },
+        {
+            "id": 4,
+            "name": "Cấp Xã"
+        }
+    ],
+    "danhMucTinhTrang": [
+        {
+            "id": 1,
+            "name": "Công khai"
+        },
+        {
+            "id": 2,
+            "name": "Chờ công khai"
+        },
+        {
+            "id": 3,
+            "name": "Bãi bỏ"
+        }
+    ]
+    ,
+    "danhMucCachThucTH": [
+        {
+            "id": 1,
+            "name": "Trực tiếp"
+        },
+        {
+            "id": 2,
+            "name": "Trực tuyến"
+        },
+        {
+            "id": 3,
+            "name": "Bưu chính"
+        }
+    ]
+}

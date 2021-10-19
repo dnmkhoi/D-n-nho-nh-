@@ -128,7 +128,9 @@ a:hover {
 }
 
 @media screen and (max-width:1024px) {
-	
+	div.col-md-8.filter-row-tthc > div {
+		padding: unset;
+	}
 	.box-slide {
 		left: 20px !important;
 		right: 20px !important
@@ -5504,4 +5506,91 @@ a:hover {
 
 .control-panel {
 	padding-top: 40px
+}
+span.group-btn-custom{
+	background: #2067dd;
+    color: white;
+    border-radius: 0 0px 0 0px;
+    padding: 8px 35px;
+	line-height: unset
+}
+span.group-btn-custom:hover{
+	-webkit-box-shadow: inset 0 0 100px rgb(0 0 0 / 20%); 
+    box-shadow: inset 0 0 100px rgb(0 0 0 / 20%); 
+	color:white;
+}
+select.form-control.color-gray{
+	color: #999999;
+}
+select.form-control.color-gray option{
+	color:black !important;
+}
+.css-spinner {
+    background: transparent!important;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 2px solid;
+    border-color: #000;
+    border-bottom-color: transparent;
+    display: inline-block;
+    -webkit-animation: animation-s8tf20 0.75s 0s infinite linear;
+    animation: animation-s8tf20 0.75s 0s infinite linear;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+	position: absolute;
+    left: calc(50% - 150px / 2);
+    top: calc(50% - 150px / 2);
+}
+@keyframes animation-s8tf20{
+	0% {webkit-transform: rotate(0deg) scale(1);
+			-moz-transform: rotate(0deg) scale(1);
+			-ms-transform: rotate(0deg) scale(1);
+			transform: rotate(0deg) scale(1);}
+	50% {
+		-webkit-transform: rotate(180deg) scale(0.8);
+		-moz-transform: rotate(180deg) scale(0.8);
+		-ms-transform: rotate(180deg) scale(0.8);
+		transform: rotate(180deg) scale(0.8);
+	}
+	100% {
+		-webkit-transform: rotate(360deg) scale(1);
+		-moz-transform: rotate(360deg) scale(1);
+		-ms-transform: rotate(360deg) scale(1);
+		transform: rotate(360deg) scale(1);
+	}
+}
+.color-matthc{
+	color: #287ed7;
+    font-weight: 600;
+	padding-right: 15px;
+}
+.tt-details{
+	width: 100%;
+}
+.tt-details td{
+	padding: 5px 10px;
+}
+.tt-details tr td:first-child{
+	font-weight: 600;
+	width: 24%;
+	text-align: right;
+	vertical-align: top;
+}
+.tt-details tr td:nth-child(2){
+	width: 76%;
+	text-align: left;
+}
+.tt-details select{
+	height: unset;
+	width: 100%;
+}
+a[disabled] {
+    pointer-events: none;
+}
+div.col-md-8.filter-row-tthc > div:first-child{
+	padding-left: 0;
+}
+div.col-md-8.filter-row-tthc > div:last-child{
+	padding-right: 0;
 }
