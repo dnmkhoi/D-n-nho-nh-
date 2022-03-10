@@ -7,10 +7,10 @@ export default function CustomNavbar() {
       require('./main.css');
       require('./clay.css');
         return (
-            <nav class="navbar navbar-default sticky-top fixed-top navbar navbar-light padLR-50" id="banner">
+            <nav class="navbar navbar-default sticky-top fixed-top navbar padLR-50" id="banner">
    <div class="container-fluid bg-td">
       <div class="navbar-header">
-         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#defaultNavbar1" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand navbar-brand1" href="/"><img src={logo} height="75" alt="" style={{transform: "translate(0px, -22px)",marginTop:'12px'}}/></a> 
+         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#defaultNavbar1" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand navbar-brand1" href="/"><img src={logo} height="75" alt="" style={{transform: "translate(0px, -22px)"}}/></a> 
       </div>
       <div class="collapse navbar-collapse" id="defaultNavbar1">
 

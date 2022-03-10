@@ -15,7 +15,7 @@ export default function TracuuHoso(){
             setLoading(false);                   
         }else{
             console.log(tuKhoa)
-            fetch("https://cors-anywhere.herokuapp.com/http://dvctt.camau.gov.vn/api/hoso/tracuuhoso?tukhoa="+tuKhoa, {
+            fetch("http://dvctt.camau.gov.vn:80/api/forward/http://dichvucong.soctrang.gov.vn/api/hoso/tracuuhoso?tukhoa="+tuKhoa, {
                 method: 'GET'
             })
                 .then(res => res.text())
@@ -40,24 +40,22 @@ export default function TracuuHoso(){
             <h3 class="tle mb-0">Tra cứu hồ sơ từ hệ thống Dịch vụ công trực tuyến Tỉnh Cà Mau<br/><span class="line"></span></h3>
             <form action="enhanced-results.html">
                 <div className="row">
-                    <div className="col-md-8 offset-md-1" style={{float:'none',margin:'0px auto'}}>
+                    <div className="col-md-12">
                         <div className="row">
-                            <div className="col-6">
+                            <div className="col-md-8" style={{ float: "none", margin: "0 auto" }}>
                                 <div className="form-group">
-                                        <div className="col-md-10 offset-md-1">                                        
-                                            <input type="text" id="search" class="form-control bo-l bo-none"  placeholder="Nhập mã hồ sơ/CCCD/CMND"></input>
-                                        </div>
-                                        <div className="col-md-2 offset-md-1">
-                                            <input type="button" id="btnSearch" value="Tìm kiếm" onClick={e => { setLoading(true); handleSubmit(e) }} style={{height:'40px',width:'100%', backgroundColor:'#2067dd', color: 'white'}}></input>
-                                        </div>
+                                    <div className="input-group">
+                                        <input type="text" id="search" className="form-control"  placeholder="Nhập mã hồ sơ/CCCD/CMND"></input>
+                                        <span className="input-group-btn"><span className="btn group-btn-custom" onClick={e => { setLoading(true); handleSubmit(e) }}>Tìm kiếm</span></span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     {                           
                         result != '' ? (
-                                <div class="col-md-12 offset-md-1">
-                                    <div className="row justify-content-center">
+                                <div class="col-md-12">
+                                    <div className="row">
                                         <div className="col-md-8" style={{ float: "none", margin: "0 auto" }}>
                                             <div>
                                                 <pre style={{marginTop:'10px'}}>

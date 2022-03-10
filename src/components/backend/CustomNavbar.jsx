@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 
 class CustomNavbar extends Component {
     render() {
-        require('./AdminLte.min.css');
         return (
         <div>
             <nav className="main-header navbar navbar-expand navbar-white navbar-light">
@@ -12,7 +11,7 @@ class CustomNavbar extends Component {
                 <a className="nav-link" data-widget="pushmenu" href="#" role="button"><i className="fas fa-bars" /></a>
                 </li>
                 <li className="nav-item d-none d-sm-inline-block">
-                <a href="index3.html" className="nav-link">Trang chủ</a>
+                <a href="/home" className="nav-link">Trang chủ</a>
                 </li>
             </ul>
             {/* Right navbar links */}

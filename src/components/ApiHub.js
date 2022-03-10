@@ -13,7 +13,7 @@ export default function ApiHub() {
                 <h3 class="tle mb-0">Danh sách kết nối hoàn thành<br /><span class="line"></span></h3>
                 <form action="#">
                     <div className="row">
-                        <div className="col-md-12 offset-md-1">
+                        <div className="col-md-12">
                             <div className="row justify-content-center">
                                 <div className="col-md-8" style={{ float: "none", margin: "0 auto" }}>
                                     <div className="form-group">
@@ -45,7 +45,7 @@ export default function ApiHub() {
                         </div>
                         {
                             idApi > 0 ? (
-                                <div class="col-md-12 offset-md-1">
+                                <div class="col-md-12 ">
                                     <div className="row justify-content-center">
                                         <div className="col-md-8" style={{ float: "none", margin: "0 auto" }}>
                                             <CallApi

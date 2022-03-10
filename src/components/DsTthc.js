@@ -66,8 +66,8 @@ export default function DsTthc() {
                 <h3 className="tle mb-0">Danh mục thủ tục hành chính quốc gia<br /><span className="line"></span></h3>
                 <form action="#">
                     <div className="row">
-                        <div className="col-md-12 offset-md-1">
-                            <div className="row justify-content-center">
+                        <div className="col-md-12">
+                            <div className="row">
                                 <div className="col-md-8" style={{ float: "none", margin: "0 auto" }}>
                                     <div className="form-group">
                                         <label>Tên/mã thủ tục hành chính: </label>
@@ -113,7 +113,7 @@ export default function DsTthc() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="row justify-content-center">
+                            <div className="row">
                                 <div className="col-md-10" style={{ float: "none", margin: "0 auto" }}>
                                     <div className="table-responsive">
                                         <table className="table table-bordered table-striped table-hover table-list">
